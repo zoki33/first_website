@@ -2,7 +2,7 @@ body
 {
     font: Roboto;
     background-image: url(images/4907157.jpg) ;
-    padding: 10px 100px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -19,11 +19,16 @@ body
 {
     display: flex;
     flex-direction: column;
+    background:  #ab1a2ba9;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
 }
 .top
 {
     display: flex;
     justify-content: space-between;
+    margin: 20px 30px;
 }
 
 .categories
@@ -80,9 +85,10 @@ button:hover
 {
     height: 300px;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 20px;
     
 }    
 
