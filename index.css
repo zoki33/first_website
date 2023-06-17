@@ -1,0 +1,100 @@
+body
+{
+    font: Roboto;
+    background-image: url(images/4907157.jpg) ;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.logo > img
+{
+    width: 125px;
+ 
+
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories
+{
+    order: 1;
+    display: flex;
+    align-self: baseline;
+    gap: 10px;
+    
+}
+
+.logo
+{
+   
+   padding: 0;
+   margin: 0;
+   align-self: center;
+   margin-left: -30px;
+   margin-top: -10px;
+ 
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(194,194,194,255);
+    background-color: rgba(0,122,73,255);
+    border-radius: 15px;
+    
+}
+button:hover
+{
+    background-color: rgb(171,26,42);
+}
+
+.title > h1
+{
+    font-size: 50px;
+    white-space: nowrap;
+
+  
+}
+
+.title
+{
+    flex-basis: 40%;
+    align-self: center;
+    
+    
+}
+
+.bot
+{
+    height: 300px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    gap: 20px;
+    
+}    
+
+.alfa-image > img
+{
+    
+   max-width: 400px;
+   border-radius: 18px;
+   
+}
+
+.alfa-image
+{
+    align-self: center;
+}
