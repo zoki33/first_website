@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     height: 100%;
     z-index: 2;
-    border-bottom:5px solid #006e42b4;
+    border-bottom: 5px solid #006e42b4;
 }
 
 .top {
@@ -72,10 +72,12 @@ button:hover {
 
 }
 
-.title {
-    flex-basis: 40%;
+.title,
+.alfa-image {
+    
+    flex-basis: 400px;
     align-self: center;
-
+    flex-shrink: 1;
 
 }
 
@@ -88,8 +90,8 @@ button:hover {
     margin-bottom: 20px;
 
 }
-.title-p
-{
+
+.title-p {
     font-size: 26px;
 }
 
@@ -112,6 +114,8 @@ button:hover {
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
+    flex-wrap: wrap;
+
 
 
 }
@@ -134,14 +138,12 @@ h2 {
 
 .component {
 
+
     min-width: 0;
-    flex-shrink: 1;
-
+   
 }
 
-.component.interior {
-    flex-shrink: 2;
-}
+
 
 .best-sellers {
 
@@ -181,8 +183,7 @@ h2 {
     transition: 1s ease;
 }
 
-.promo
-{
+.promo {
     display: flex;
     justify-content: center;
     max-height: 200px;
@@ -190,8 +191,7 @@ h2 {
 
 }
 
-.box
-{
+.box {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -203,8 +203,7 @@ h2 {
 }
 
 
-.footer
-{
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
